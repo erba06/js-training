@@ -1,13 +1,20 @@
 'use strict'
 
 /*
- * Create a `getLength` function that takes an array or a string
- * and return its length.
+ * Create a getLength function that takes an array or a string
+ * and return it's length.
  *
  * @notions Data-Structures, Get
  */
 
 // Your code :
+
+const myArray = ["Salut", 11, "Bonjour"];
+
+const getLength = lg  => {
+	 return lg.length
+}
+console.log(getLength(myArray))
 
 //* Begin of tests
 const assert = require('assert')

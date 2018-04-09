@@ -1,10 +1,17 @@
 'use strict'
 
 /*
- * Create a `total` function that takes an array of numbers
- * and return the total
+ * Create a function `total` that takes an array on numbers
+ * and return it's total
  *
  */
+const total = myArray => {
+      let sum = 0;
+      for(let i=0; i<myArray.length; i++)
+      sum = sum + myArray[i];
+      return sum
+}
+
 
 
 //* Begin of tests

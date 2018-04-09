@@ -8,6 +8,13 @@
  */
 
 // Your code :
+const myArray = ["Salut", 11, "Bonjour"];
+
+const getFirst = lg  => {
+	  return lg[0];
+}
+console.log(getFirst(myArray))
+
 
 //* Begin of tests
 const assert = require('assert')

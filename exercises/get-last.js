@@ -1,13 +1,19 @@
 'use strict'
 
 /*
- * Create a `getLast` function that takes an array or a string
+ * Create a getLast function that takes an array or a string
  * and return the last element.
  *
  * @notions Data-Structures, Get
  */
 
 // Your code :
+
+const myArray = [2, 42, "pouet"];
+const getLast = lg => {
+	return lg[lg.length - 1]
+}
+console.log(getLast(myArray))
 
 //* Begin of tests
 const assert = require('assert')

@@ -1,20 +1,31 @@
 'use strict'
 
 /*
- * Create a `keepFirst` function that takes a string as parameter
- * and return the string only keeping the 2 first characters
+ * Create a function `keepFirst` takes a string
+ * and only keep the 2 first characters
  *
- * Create a `keepLast` function that takes a string as parameter
- * and return the string only keeping the 2 last characters
+ * Create a function `keepLast` takes a string
+ * and only keep the 2 last characters
  *
- * Create a `keepFirstLast` function that takes a string as parameter
+ * Create a function `keepFirstLast` takes a string
  * and only keep 2 characters from the third character
  *
  */
+//const keepFirst = string =>{ 
+//	return string.substr(0,2)}
+
+//const keepLast = string =>{ 
+//	return string.substr(string.length - 2); 
+
+const keepFirstLast = string =>{ 
+return string.substr(2, string.length -4)}
+
+
 
 
 //* Begin of tests
 const assert = require('assert')
-
-assert.fail('You must write your own tests')
+assert.strictEqual(typeof keepFirstLast, 'function')
+assert.strictEqual(keepFirstLast.length, 1)
+assert.deepStrictEqual(keepFirstLast('Helene'), ('le'))
 // End of tests */
