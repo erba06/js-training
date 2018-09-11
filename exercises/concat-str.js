@@ -1,7 +1,8 @@
 'use strict'
 
 /*
- * Create a function `concatStr` that takes 2 arguments and concatenate them
+ * Create a function `concatStr` that takes 2 arguments
+ * and concatenate them
  *
  * @notions Functions, Operators
  */
